@@ -1,0 +1,82 @@
+/* Apply consistent sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/*style the whole wewbpage*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Style the main heading */
+h1 {
+    color: #1565c0;
+    text-align: center;
+}
+
+/* Style all paragraphs */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Style sections */
+section {
+    padding:20px;
+    margin: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+/* Arrange navigation links in one horizontal line */
+nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style navigation links */
+nav a {
+    text-decoration: none;
+    color: #efeff0;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style section headings */
+section h2 {
+    color: #1565c0;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Style buttons */
+button {
+    background-color: #1565c0;
+    color: #efeff0;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+} 
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1565c0;
+    color: #efeff0;
+}
